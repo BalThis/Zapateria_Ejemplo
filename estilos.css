@@ -1,0 +1,37 @@
+@charset "utf-8";
+	h1{
+			color: #e723a5;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		table{
+			color: #e723a5;
+		}
+	h3{
+			color: #6b42ea;
+		}
+	h6{
+			color: #e723a5;
+	}
+
+	table {
+		border-collapse: collapse; 
+		width: 100%; 
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+
+	th {
+		background-color: #e723a5;
+		color: white;
+		padding: 10px;
+		text-align: left;
+	}
+
+	td {
+		border: 1px solid #ddd;
+		padding: 8px;
+	}
+
+	tr:nth-child(even) {
+		background-color: #f2f2f2;
+}
